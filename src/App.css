@@ -1,0 +1,47 @@
+/* General Layout */
+.app-container {
+  display: flex;
+  height: 100vh;
+  width: 100%;
+  font-family: "Arial", sans-serif;
+  background-color: #f0f4fa;
+}
+
+/* Sidebar Section */
+.sidebar {
+  width: 240px;
+  background-color: #ffffff;
+  height: 100vh;
+  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content Section */
+.main-content {
+  flex: 1;
+  padding: 40px 20px;
+  background-color: #f8fbff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-y: auto;
+}
+
+/* Progress Bar Section */
+.progress-bar-container {
+  width: 100%;
+  max-width: 900px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Form Section */
+.form-section {
+  width: 100%;
+  max-width: 900px;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
